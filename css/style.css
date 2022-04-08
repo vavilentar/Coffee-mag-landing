@@ -1,0 +1,129 @@
+[class*="__container"] {
+	font-family: 'Karla';
+	max-width: 1380px;
+	margin: 0 auto;
+}
+.header {
+	width: 940px;
+	padding: 10px 0;	
+}
+
+.header-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logotype {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.navbar a {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: 2px;
+	color: grey;
+}
+
+.navbar a:hover {
+	color: black;
+}
+
+.cart-btn {
+	width: 100px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 10px 0 10px 0;
+	background-color: white;
+
+}
+
+.overview {
+	min-height: 602px;
+}
+.overview__container {
+	height: 602px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../../img/coffee-bg.png);
+	background-position: center;
+	background-size:contain;
+}
+.subtitle {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+.overview-subtitle{
+	text-transform: uppercase;
+	padding: 159px 0 0 0;
+	color:white;
+}
+
+.subtitle-second {
+	text-transform: none;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+	color: white;
+	padding: 0;
+}
+.title {
+	font-size: 47px;
+	font-weight: 400;
+	line-height: 60px;
+	text-align: center;
+}
+.overview-title {
+	padding: 10px 0;
+	width: 869px;
+	color: #fff;
+	text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
+}
+
+.button-view {
+	margin-top: 48px;
+	border: 1px solid;
+	border-radius: 10px 0 10px 0;
+	background-color: white;
+	height: 27px;
+	width: 208px;
+
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.info {
+	padding: 123px 0 121px 0;
+	text-align: center;
+	width: 652px;
+}
+.info-title {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.info-text {
+	padding: 16px 0 21px 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #1D1F2EB2;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+.info-link {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #A25F4B;
+	text-decoration: none;
+}
