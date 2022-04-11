@@ -53,6 +53,8 @@
 	background-size:contain;
 }
 .subtitle {
+	text-transform: uppercase;
+	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 18px;
@@ -116,7 +118,6 @@
 	font-weight: 400;
 	line-height: 28px;
 	color: #1D1F2EB2;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
 }
@@ -129,8 +130,6 @@
 }
 
 .blocks-subtitle {
-	text-align: center;
-	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 18px;
@@ -154,6 +153,7 @@
 	font-weight: 400;
 	line-height: 30px;
 }
+
 .price {
 	display: flex;
 	align-items: center;
@@ -187,4 +187,135 @@
 
 .products-tabs {
 	padding: 50px 0;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em rgba(0,0,0,.5);
+  transform: translateY(-0.25em);
+}
+
+button {  
+	transition: 0.25s;
+}
+
+.mug-img {
+	transition: .25s all ease-in-out;
+}
+
+.mug-img:hover {
+	transform: scale(1.1);
+}
+
+.promo-subtitle {
+	padding: 50px 0 100px 0;
+}
+
+.offer-img {
+	display: flex;
+	height: 280px;
+	width: 460px;
+	justify-content: space-around;
+}
+
+.offer-sm-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.offer-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 130px 0;
+}
+
+.offer-descr {
+	padding: 0 0 0 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 273px;
+	width: 460px;
+}
+
+.offer-name {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+
+.offer-title {
+	text-align: left;
+}
+
+.offer-subtitle {
+	text-transform: none;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.offer-button {
+	height: 36px;
+	width: 173px;
+	color: white;
+	text-transform: uppercase;
+	background-color: #000;
+	border: none;
+	font-family: 'Karla';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+
+.coffee-img {
+	height: 340px;
+
+	background-image: url(../../img/coffee-bg-2.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.stories-subtitle {
+	padding: 100px 0;
+}
+
+
+
+.stories-tabs {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+.story {
+	height: 553px;
+	width: 300px;
+}
+.story-img {
+}
+.story-title {
+	padding: 25px 0 14px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+}
+.story-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color:#1D1F2EB2;
+	padding: 0 0 16px 10px;
+}
+.story-date {
+	padding: 0 0 0 10px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+	color: #1D1F2E;
 }
