@@ -1,6 +1,6 @@
 [class*="__container"] {
 	font-family: 'Karla';
-	max-width: 1380px;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 .header {
@@ -291,13 +291,13 @@ button {
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
+	padding: 0 0 153px 0;
 }
 .story {
 	height: 553px;
 	width: 300px;
 }
-.story-img {
-}
+
 .story-title {
 	padding: 25px 0 14px 10px;
 	font-size: 20px;
@@ -319,3 +319,91 @@ button {
 	letter-spacing: 2px;
 	color: #1D1F2E;
 }
+
+.updates {
+	height: 327px;
+	background-color:#1D1F2E;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.updates-subtitle {
+	color: white;
+	padding: 80px 0 14px 0;
+}
+
+.updates-title {
+	color: white;
+	padding: 0 0 25px 0;
+}
+
+.subscribe {
+	align-items: center;
+}
+
+.subscribe-input {
+	height: 54px;
+	width: 350px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+
+.subscribe-button {
+	height: 54px;
+	width: 129px;
+	color: black;
+	background-color: white;
+	border: none;
+
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.footer__container {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-descr {
+	width: 303px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 22px 0 114px 0;
+}
+
+.copyright_text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #1D1F2E4D;
+	opacity: 70%;
+}
+
+.footer-navbar a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav-link {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 5px 0;
+}
+.nav-link-bold{
+	padding: 0 0 15px 0;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 2px;
+}
+
