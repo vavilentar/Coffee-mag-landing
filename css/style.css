@@ -48,7 +48,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: url(img/coffee-bg.png);
+	background-image: url(../img/coffee-bg.png);
 	background-position: center;
 	background-size:contain;
 }
@@ -276,7 +276,7 @@ button {
 .coffee-img {
 	height: 340px;
 
-	background-image: url(img/coffee-bg-2.png);
+	background-image: url(../img/coffee-bg-2.png);
 	background-position: center;
 	background-size: cover;
 }
