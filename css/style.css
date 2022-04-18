@@ -37,4 +37,6 @@
 
 button {  
 	transition: 0.25s;
+	text-align: center;
+	color: black;
 }
