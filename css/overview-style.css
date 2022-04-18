@@ -60,11 +60,12 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 829px) {
 	.overview__container {
 		background-size: cover;
 	}
 	.subtitle-second {
 		line-height: 22px;
+		width: 400px;
 	}
 }

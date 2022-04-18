@@ -39,9 +39,9 @@
      height: 30px;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 829px) {
 	.header{
-		width: 300px;
+		width: 800px;
 		margin: 0px 0px 0px 0px;
 	}
 	.navbar {

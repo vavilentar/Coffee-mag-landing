@@ -56,6 +56,8 @@
 
 .products-tabs {
 	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .mug-img {
@@ -66,12 +68,13 @@
 	transform: scale(1.1);
 }
 
-@media (max-width: 415px) {
+@media (max-width: 829px) {
+	.mug{
+		height: 480px;
+		width: 330px;
+	}
 	.blocks-subtitle{
 		padding: 50px 0;
-	}
-	.mug-tabs{
-		flex-direction: column;
 	}
 	.mug-img img{
 		width: 300px;
