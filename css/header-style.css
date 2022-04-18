@@ -14,12 +14,27 @@
 	font-weight: 800;
 }
 
-.navbar a {
+.navbar a, .navbar-show a {
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 18px;
 	letter-spacing: 2px;
 	color: grey;
+}
+
+.navbar-show a {
+	color: white;
+}
+
+.navbar-show {
+	display: block;
+	position: fixed;
+	top: 55px;
+	right: 5px;
+	text-align: end;
+	background-color: rgb(58 58 58 / 84%);
+	padding: 10px;
+	border-radius: 10px 0 0 10px;
 }
 
 .navbar a:hover {
@@ -32,9 +47,11 @@
 	border: 1px solid;
 	border-radius: 10px 0 10px 0;
 	background-color: white;
+	text-align: center;
 }
 
 .btn-hamburger{
+	display: none;
 	width: 30px;
      height: 30px;
 }
@@ -43,12 +60,18 @@
 	.header{
 		width: 800px;
 		margin: 0px 0px 0px 0px;
+		position: fixed;
+		background: #ffffffed;
 	}
 	.navbar {
 		display: none;
 	}
 	.btn-hamburger-on{
 		display: none;
+	}
+
+	.btn-hamburger {
+		display: block;
 	}
 }
 
