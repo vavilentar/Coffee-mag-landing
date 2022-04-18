@@ -22,11 +22,11 @@
 	}
 }
 
-@media (max-width: 426px) {
+/* @media (max-width: 426px) {
 	[class*="__container"] {
 		width: 100%;
 	}
-}
+} */
 
 
 .raise:hover,
