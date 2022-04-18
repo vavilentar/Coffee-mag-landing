@@ -11,9 +11,10 @@
 	justify-content: center;
 }
 .mug {
-	height: 653px;
+	height: auto;
 	width: 480px;
 	text-align: center;
+	margin: 10px 0;
 }
 
 .mug-name {
@@ -81,7 +82,7 @@
 	}
 }
 
-@media (max-width: 414px) {
+@media (max-width: 426px) {
 	.mug-tabs{
 		flex-wrap: wrap;
 	}

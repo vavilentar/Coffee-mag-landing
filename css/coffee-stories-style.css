@@ -20,8 +20,9 @@
 	padding: 0 0 153px 0;
 }
 .story {
-	height: 553px;
+	height: auto;
 	width: 300px;
+	margin: 10px 0;
 }
 
 .story-title {

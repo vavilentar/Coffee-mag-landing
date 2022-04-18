@@ -17,14 +17,14 @@
 
 @media (max-width:829px){
 	[class*="__container"] {
-		max-width: 800px;
-		margin: 0;
+		max-width: 829px;
+		margin: 0 auto;
 	}
 }
 
-@media (max-width: 414px) {
+@media (max-width: 426px) {
 	[class*="__container"] {
-		max-width: 414px;
+		max-width: 426px;
 	}
 }
 

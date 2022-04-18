@@ -14,7 +14,7 @@ const tl = gsap.timeline({defaults: { duration: 0.5, ease: "power3.easeOut" }
 // 	toggleActions: "restart none none none"
 // }, opacity: 0}, {opacity: 1})
 // tl.fromTo('.featured', {scrollTrigger: '.featured', opacity: 0}, {opacity: 1})
-// tl.fromTo('.products', {scrollTrigger: '.products', opacity: 0}, {opacity: 1}
+// tl.fromTo('.products', {scrollTrigger: '.products', opacity: 0}, {opacity: 1})
 // tl.fromTo('.promo', {scrollTrigger: '.promo', opacity: 0}, {opacity: 1})
 // tl.fromTo('.coffee-img', {scrollTrigger: '.coffee-img', opacity: 0}, {opacity: 1})
 // tl.fromTo('.stories', {scrollTrigger: '.stories', opacity: 0}, {opacity: 1})

@@ -58,7 +58,7 @@
 
 @media (max-width: 829px) {
 	.header{
-		width: 800px;
+		width: 100%;
 		margin: 0px 0px 0px 0px;
 		position: fixed;
 		background: #ffffffed;
@@ -75,9 +75,9 @@
 	}
 }
 
-@media (max-width: 414px) {
+@media (max-width: 426px) {
 	.header {
-		width: 414px;
+		width: 426px;
 	}
 	.header-row{
 		justify-content: center;
