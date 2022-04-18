@@ -40,7 +40,6 @@
 }
 .overview-title {
 	padding: 10px 0;
-	width: 800px;
 	color: #fff;
 	text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
 }
@@ -67,5 +66,11 @@
 	.subtitle-second {
 		line-height: 22px;
 		width: 400px;
+	}
+}
+
+@media (max-width: 413px) {
+	.subtitle-second {
+		width: 300px;
 	}
 }

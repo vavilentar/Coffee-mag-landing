@@ -71,3 +71,12 @@
 		flex-direction: column;
 	 }
 }
+
+@media(max-width: 413px) {
+	.offer-img{
+		display: none;
+	}
+	.offer-descr{
+		width: 400px;
+	}
+}

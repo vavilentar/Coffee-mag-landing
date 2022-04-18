@@ -45,3 +45,9 @@
 @media (max-width: 829px) {
 	
 }
+
+@media (max-width: 413px) {
+	.footer-navbar{
+		display: none;
+	}
+}

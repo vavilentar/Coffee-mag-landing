@@ -80,3 +80,9 @@
 		width: 300px;
 	}
 }
+
+@media (max-width: 413px) {
+	.mug-tabs{
+		flex-wrap: wrap;
+	}
+}

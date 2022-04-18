@@ -12,13 +12,19 @@
 [class*="__container"] {
 	font-family: 'Karla';
 	max-width: 1920px;
-	margin: 0 auto;
-	overflow: hidden;
+	margin: 0;
 }
 
 @media (max-width:829px){
 	[class*="__container"] {
 		max-width: 800px;
+		margin: 0;
+	}
+}
+
+@media (max-width: 413px) {
+	[class*="__container"] {
+		max-width: 413px;
 	}
 }
 

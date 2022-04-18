@@ -46,6 +46,13 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 829px) {
-	
+@media (max-width: 413px) {
+	.subscribe-input{
+		height: 35px;
+    		width: 220px;
+	}
+	.subscribe-button{
+		height: 35px;
+		width: 100px;
+	}
 }
