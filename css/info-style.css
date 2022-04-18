@@ -1,0 +1,32 @@
+.info {
+	padding: 123px 0 0 0;
+	text-align: center;
+	width: 652px;
+}
+.info-title {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.info-text {
+	padding: 16px 0 21px 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #1D1F2EB2;
+
+
+}
+.info-link {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #A25F4B;
+	text-decoration: none;
+}
+
+@media (max-width: 415px) {
+	.info{
+		padding: 20px 0 0 0;
+	}
+}

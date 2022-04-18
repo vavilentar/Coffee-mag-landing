@@ -1,0 +1,79 @@
+.blocks-subtitle {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 2px;
+	padding: 100px 0;
+}
+
+.mug-tabs {
+	display: flex;
+	justify-content: center;
+}
+.mug {
+	height: 653px;
+	width: 480px;
+	text-align: center;
+}
+
+.mug-name {
+	padding: 35px 0 5px 0;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #1D1F2EB2;
+}
+
+.new-price {
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #A25F4B;
+	font-weight: 500;
+}
+
+.old-price {
+	text-decoration: line-through;
+}
+
+.product-mug{
+	height: 497px;
+	width: 317px;
+}
+
+.products-subtitle {
+	padding: 100px 0 50px 0;
+}
+
+.products-tabs {
+	padding: 50px 0;
+}
+
+.mug-img {
+	transition: .25s all ease-in-out;
+}
+
+.mug-img:hover {
+	transform: scale(1.1);
+}
+
+@media (max-width: 415px) {
+	.blocks-subtitle{
+		padding: 50px 0;
+	}
+	.mug-tabs{
+		flex-direction: column;
+	}
+	.mug-img img{
+		width: 300px;
+	}
+}

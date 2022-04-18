@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic"
 		rel="stylesheet" />
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Coffee Mug</title>
 </head>
@@ -18,7 +19,7 @@
 		<div class="row header-row">
 			<div class="col-1 .offset-1 logotype">CoffeeStyle.</div>
 			<div class="col-8 navigation">
-				<div class="navbar">
+				<div class="navbar navbar-show">
 					<a class="nav-link" href="">Home</a>
 					<a class="nav-link" href="">Our Products</a>
 					<a class="nav-link" href="">Blog</a>
@@ -28,7 +29,8 @@
 				</div>
 			</div>
 			<div class="col-1 .offset-1 cart">
-				<button class="cart-btn raise">Your cart</button>
+				<button class="cart-btn raise btn-hamburger-on">Your cart</button>
+				<button class="cart-btn btn-hamburger"><i class="fa-solid fa-bars"></i></button>
 			</div>
 		</div>
 	</header>
@@ -315,6 +317,7 @@
 			</div>
 	</footer>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js" integrity="sha512-6zTDRWNxo8vI6JZYDCwhrJpg5icK3P4HNnW3czsO5Scb3lAoPDam+/wF3eog4hxcl0h44d0XlIcFkuoSaWHQ2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="./js/bootstrap.bundle.min.js"></script>
 	<script src="./js/script.js"></script>
 </body>

@@ -1,0 +1,53 @@
+.header {
+	width: 940px;
+	padding: 10px 0;	
+}
+
+.header-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logotype {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.navbar a {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	letter-spacing: 2px;
+	color: grey;
+}
+
+.navbar a:hover {
+	color: black;
+}
+
+.cart-btn {
+	width: 100px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 10px 0 10px 0;
+	background-color: white;
+}
+
+.btn-hamburger{
+	width: 30px;
+     height: 30px;
+}
+
+@media (max-width: 415px) {
+	.header{
+		width: 300px;
+		margin: 0px 0px 0px 0px;
+	}
+	.navbar {
+		display: none;
+	}
+	.btn-hamburger-on{
+		display: none;
+	}
+}
