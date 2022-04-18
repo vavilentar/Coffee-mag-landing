@@ -65,7 +65,7 @@
 	letter-spacing: 2px;
 }
 
-@media (max-width: 829px) {
+@media (max-width: 769px) {
 	.offer-block{
 		display: flex;
 		flex-direction: column;

@@ -65,11 +65,15 @@
 	transition: .25s all ease-in-out;
 }
 
+.mug-img img{
+	border-radius: 10px 0 10px 0;
+}
+
 .mug-img:hover {
 	transform: scale(1.1);
 }
 
-@media (max-width: 829px) {
+@media (max-width: 769px) {
 	.mug{
 		height: 480px;
 		width: 330px;
@@ -85,5 +89,19 @@
 @media (max-width: 426px) {
 	.mug-tabs{
 		flex-wrap: wrap;
+	}
+
+	.mug-img img {
+		width: 170px;
+	}
+
+	.mug{
+		height: auto;
+		width: 180px;
+	}
+
+	.mug-name{
+		font-size: 14px;
+		padding: 10px 0;
 	}
 }

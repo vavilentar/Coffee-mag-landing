@@ -47,7 +47,7 @@
 	color: #1D1F2E;
 }
 
-@media (max-width: 829px) {
+@media (max-width: 769px) {
 	.stories-tabs{
 		flex-direction: row;
 		flex-wrap: wrap;

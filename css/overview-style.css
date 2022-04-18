@@ -59,7 +59,7 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 829px) {
+@media (max-width: 769px) {
 	.overview__container {
 		background-size: cover;
 	}

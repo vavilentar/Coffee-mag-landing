@@ -15,9 +15,9 @@
 	margin: 0 auto;
 }
 
-@media (max-width:829px){
+@media (max-width:769px){
 	[class*="__container"] {
-		max-width: 829px;
+		width: 100%;
 		margin: 0 auto;
 	}
 }
