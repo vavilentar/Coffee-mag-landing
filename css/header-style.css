@@ -52,9 +52,9 @@
 	}
 }
 
-@media (max-width: 413px) {
+@media (max-width: 414px) {
 	.header {
-		width: 412px;
+		width: 414px;
 	}
 	.header-row{
 		justify-content: center;

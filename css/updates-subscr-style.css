@@ -46,7 +46,7 @@
 	text-transform: uppercase;
 }
 
-@media (max-width: 413px) {
+@media (max-width: 414px) {
 	.subscribe-input{
 		height: 35px;
     		width: 220px;
