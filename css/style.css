@@ -12,7 +12,7 @@
 [class*="__container"] {
 	font-family: 'Karla';
 	max-width: 1920px;
-	margin: 0;
+	margin: 0 auto;
 }
 
 @media (max-width:829px){
