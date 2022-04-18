@@ -24,7 +24,7 @@
 
 @media (max-width: 426px) {
 	[class*="__container"] {
-		max-width: 426px;
+		width: 100%;
 	}
 }
 
